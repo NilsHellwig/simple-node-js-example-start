@@ -21,26 +21,30 @@ npm install --global http-server
 http-server
 ```
 
-
 ## Backend Starten: Terminal 2
 
 1. Weiteres Terminal öffnen
-
 
 ```bash
 cd backend
 ```
 
-2. Packages installieren
+2. npm initialisieren (package.json erstellen)
+
+```bash
+npm init
+```
+
+3. Packages installieren
+
 ```
 npm install cors express
 ```
 
-3. Skript ausführen bzw. Webserver starten
+4. Skript ausführen bzw. Webserver starten
 
 ```bash
 npm start
 ```
 
 Info: Alternativ auch `npm run start` (`npm start` ist gemapped auf `npm run start`)
-
