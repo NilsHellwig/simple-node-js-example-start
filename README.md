@@ -41,7 +41,11 @@ npm init
 npm install cors express
 ```
 
-4. Skript ausführen bzw. Webserver starten
+4. `"type": "module",`
+
+Set `"type": "module",` in package.json, damit wir ES6 Module verwenden können (import/export)
+
+5. Skript ausführen bzw. Webserver starten
 
 ```bash
 npm start
